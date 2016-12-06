@@ -87,7 +87,7 @@ export default {
       defaultVal: '[]',
       isOptional: false,
       desc: 'The source data of the content to be displayed in the legend, usually calculated internally.',
-      format: ['[{ value: \'item name\', type: \'line\', id: \'ID01\' }]'],
+      format: ['[{ value: \'item name\', type: \'line\', id: \'ID01\', className: \'someCSSClass\' }]'],
     }, {
       name: 'chartWidth',
       type: 'Number',
